@@ -262,19 +262,60 @@ span {
 }
  
 .hero-text {
-    background-color: white; /* Dark background color from Amazon's site */
+    background-color: lightgray; /* Dark background color from Amazon's site */
     color: black; /* black text color */
-    padding: 10px;
-    text-align: center;
-    font-size: 14px;
-    width: 80%;
-    font-size: 0.9rem;
+    display: flex;
     justify-content: center;
-    align-items: flex-end;
+    margin: 10px 20px;
+    /* border : 1px solid black; */
+    padding: 10px;
 }
 .hero-text a {
     color: #2162a1;
 }
 .hero-text a:hover {
     text-decoration: underline;
+}
+/** shop section **/
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box1, .box2, .box3, .box4 {
+    /* border: 2px solid black; */
+    height: 450px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+    
+    
+
+}
+.box-img1, .box-img2, .box-img3, .box-img4 {
+    height: 85%;
+    object-fit: cover;
+    background-image: contain;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+.box h2 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box p {
+    color: #2162a1;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+.box p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    
 }
