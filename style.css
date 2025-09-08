@@ -56,7 +56,7 @@
 .nav-search {
     display: flex;
     justify-content: space-evenly;
-    width: 850px;
+    width: 750px;
     height: 50px;   
     border-radius: 2px;
     font-size: 1.2rem;
@@ -119,4 +119,162 @@ span {
 .nav-cart {
     font-size: 1.2rem;
     font-weight: 800px;
+}
+/** panel **/
+.panel {
+    width: 100%;
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.panel-all {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+.panel-opt p {
+    
+    margin: 0 10px;
+    font-size: 0.9rem;
+    font-weight: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease;  
+    display: inline-block;
+    border-radius: 4px;
+}
+.panel-opt {
+    width: 80%;
+}
+.panel-deals 
+[
+    font-size: 0.9rem;
+    font-weight: 700px;
+]
+.panel {
+      display: flex;
+      align-items: center;
+      background-color: #232f3e;
+      color: white;
+      padding: 10px 20px;
+      position: relative;
+    }
+
+    /* Hide checkbox */
+    #menu-checkbox {
+      display: none;
+    }
+
+    /* Panel-All Toggle */
+    .panel-all {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      padding: 6px 12px;
+      border-radius: 3px;
+    }
+
+    .panel-all:hover {
+      background-color: #37475a;
+    }
+
+    /* Dropdown styles */
+    .dropdown {
+      display: none;
+      position: absolute;
+      top: 48px;
+      left: 20px;
+      background: white;
+      color: black;
+      border: 1px solid #ccc;
+      width: 220px;
+      max-height: 320px;
+      overflow-y: auto;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+      z-index: 100;
+    }
+
+    .dropdown ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .dropdown li {
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .dropdown li:hover {
+      background: #f0f0f0;
+    }
+
+    /* Show dropdown when checkbox is checked */
+    #menu-checkbox:checked + label + .dropdown {
+      display: inline-block;
+    }
+
+    /* Other panel options */
+    .panel-opt {
+      display: flex;
+      gap: 15px;
+      margin-left: 20px;
+      font-size: 14px;
+    }
+
+    .panel-opt p {
+      cursor: pointer;
+    }
+
+    .panel-opt p:hover {
+      text-decoration: underline;
+    }
+
+    .panel-deals {
+      margin-left: auto;
+      font-weight: bold;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .panel-deals:hover {
+      text-decoration: underline;
+    }
+
+    /* hero- section */
+.hero-section {
+    background-image: url("hero_image 01.jpg");
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+ 
+.hero-text {
+    background-color: white; /* Dark background color from Amazon's site */
+    color: black; /* black text color */
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    width: 80%;
+    font-size: 0.9rem;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-text a {
+    color: #2162a1;
+}
+.hero-text a:hover {
+    text-decoration: underline;
 }
