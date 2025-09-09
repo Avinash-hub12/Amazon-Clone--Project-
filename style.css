@@ -99,16 +99,20 @@
 /* box4 */
 span {
     font-size: 0.85rem;
+    color: white;
+    
 }
 
 .nav-second {
     font-size: 1rem;
     font-weight: 800px;
+    color: white;
 }
 /** box5 **/
 .nav-return {
     font-size: 1.2rem;
     font-weight: 850px;
+    color: white;
 }
 /** box6 **/
 
