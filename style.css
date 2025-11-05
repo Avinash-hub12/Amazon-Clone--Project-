@@ -328,3 +328,27 @@ span {
     cursor: pointer;
     
 }
+.box:hover {
+    box-shadow: 0 4px 8px 5px  rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+/* footer */
+.footer {
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+.footer p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+.footer a {
+    color: #2162a1;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+
